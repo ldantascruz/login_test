@@ -1,0 +1,47 @@
+name: login_page_test
+description: "A new Flutter project to create a login page."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  flutter_svg: ^2.0.9
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.1
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: Effra Trial
+      fonts:
+        - asset: assets/fonts/effraTrialBd.ttf
+          weight: 700
+        - asset: assets/fonts/effraTrialSBd.ttf
+          weight: 600
+        - asset: assets/fonts/effraTrial.ttf
+          weight: 400
+    - family: Abhaya Libre
+      fonts:
+        - asset: assets/fonts/AbhayaLibre-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/AbhayaLibre-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/AbhayaLibre-Regular.ttf
+          weight: 400
